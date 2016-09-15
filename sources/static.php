@@ -7,6 +7,7 @@ switch ($action )
 		$template->set_var("PAGETITLE","Rom-Car Professional");
 		$template->set_var("META_KEYWORDS","");
 		$template->set_var("META_DESCRIPTION","");
+		echo 'dev is testing it using gitHub';
 		$template->parse('MAIN','tpl_home');
 	break;
 
